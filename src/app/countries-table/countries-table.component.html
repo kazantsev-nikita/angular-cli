@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="table-responsive">
+    <div class="form-group">
+      <input class="form-control" id="search-box" [(ngModel)]="model.value" (keyup)="search()" />
+      <div>
+        <h4>Поиск</h4>
+      </div>
+    </div>
+    <table id="table" class="table table-sortable table-striped table-bordered" cellspacing="0" width="100%">
+      <thead>
+      <tr>
+        <th (click)="changeSorting('Title')">
+          Название
+          <i class="fa fa-fw fa-sort"></i>
+        </th>
+        <th>
+          Флаг
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let country of countries">
+          <td style="cursor: pointer;" (click)="gotoDetail(country);">{{ country.title }}</td>
+          <td class="col-md-3">
+            <div class="country-flag-image img"
+                 [ngStyle]="{ 'background-image': 'url(' + country.flagUrl + ')' }">
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+{
+  "data": [
+    { "id": 0, "title": "Германия", "capitalCity": "Берлин", "countryArea": 357021, "population": 81292400, "officialLanguages": ["немецкий"], "flagUrl": "./assets/flags/germany.jpg" },
+    { "id": 1, "title": "Финляндия", "capitalCity": "Хельсинки", "countryArea": 338430.53, "population": 5479800, "officialLanguages": ["финский", "шведский"], "flagUrl": "./assets/flags/finland.jpg" },
+    { "id": 2, "title": "Швеция", "capitalCity": "Стокгольм", "countryArea": 447435, "population": 10009283, "officialLanguages": ["шведский"], "flagUrl": "./assets/flags/sweden.png" },
+    { "id": 4, "title": "Норвегия", "capitalCity": "Осло", "countryArea": 385186, "population": 5063709, "officialLanguages": ["норвежский", "саамский"], "flagUrl": "./assets/flags/norway.png" },
+    { "id": 8, "title": "Беларусь", "capitalCity": "Минск", "countryArea": 207600, "population": 9505200, "officialLanguages": ["белорусский", "русский"], "flagUrl": "./assets/flags/belarus.jpg" },
+    { "id": 16, "title": "Литва", "capitalCity": "Вильнюс", "countryArea": 65301, "population": 2854649, "officialLanguages": ["литовский"], "flagUrl": "./assets/flags/lithuania.jpg" },
+    { "id": 32, "title": "Латвия", "capitalCity": "Рига", "countryArea": 64589, "population": 1958800, "officialLanguages": ["латышский"], "flagUrl": "./assets/flags/latvia.jpg" },
+    { "id": 64, "title": "Эстония", "capitalCity": "Таллинн", "countryArea": 45227, "population": 1315994, "officialLanguages": ["эстонский"], "flagUrl": "./assets/flags/estonia.jpg" },
+    { "id": 128, "title": "Польша", "capitalCity": "Варшава", "countryArea": 312679, "population": 38623221, "officialLanguages": ["польский"], "flagUrl": "./assets/flags/poland.gif" },
+    { "id": 256, "title": "Молдавия", "capitalCity": "Кишинев", "countryArea": 33846, "population": 3550900, "officialLanguages": ["молдавский", "румынский"], "flagUrl": "./assets/flags/moldova.jpg" }
+  ]
+}

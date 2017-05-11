@@ -1,0 +1,37 @@
+<div class="container">
+  <div *ngIf="country; else noCountry">
+    <div class="col-md-4">
+      <div class="country-flag img-responsive"
+           [ngStyle]="{ 'background-image': 'url(' + country.flagUrl + ')' }">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h1 id="title">
+        {{ country.title }}
+      </h1>
+      <label for="capitalCity">Столица</label>
+      <div id="capitalCity">
+        {{ country.capitalCity }}
+      </div>
+      <label for="countryArea">Площадь</label>
+      <div id="countryArea">
+        {{ country.countryArea }} км<sup>2</sup>
+      </div>
+      <label for="population">Население</label>
+      <div id="population">
+        {{ country.population }} человек
+      </div>
+      <label for="languages">ОФициальные языки</label>
+      <div id="languages">
+        <ul>
+          <li *ngFor="let language of country.officialLanguages">
+            {{ language }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ng-template #noCountry>
+    По вашему запросу ничего не найдено..
+  </ng-template>
+</div>

@@ -1,0 +1,35 @@
+.table-responsive {
+  margin-top: 30px;
+}
+
+.table-responsive div.form-group {
+  float: right;
+  width: 100%;
+}
+
+.table-responsive div.form-group div {
+  float:right
+}
+
+.table-responsive div.form-group div h4 {
+  margin-right: 10px;
+}
+
+.table-responsive input.form-control {
+  width: 20%;
+  display: inline-block;
+  float: right;
+}
+
+.glyphicon {
+  cursor: pointer;
+}
+
+.country-flag-image {
+  background-repeat: no-repeat;
+  background-size: 140px 65px;
+  height: 65px;
+  width: 140px;
+  margin: auto;
+  display: block;
+}
